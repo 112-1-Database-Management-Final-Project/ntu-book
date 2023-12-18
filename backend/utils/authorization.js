@@ -34,7 +34,7 @@ export async function authorization(req, res, next) {
     req.authorization_id = decodedUser.id;
 
     next();
-};
+}
 
 export function generateJWT(user_id) {
 
